@@ -1,0 +1,10 @@
+.slideshow-container__arrows {
+  margin: 24px auto 0;
+  padding: 0;
+  width: 110px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}

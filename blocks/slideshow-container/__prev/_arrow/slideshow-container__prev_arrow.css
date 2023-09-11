@@ -1,0 +1,5 @@
+.slideshow-container__prev_arrow {
+  width: 100%;
+  transform: rotate(180deg);
+  background: rgba(255, 255, 255, 0);
+}

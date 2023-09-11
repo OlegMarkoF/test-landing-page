@@ -1,0 +1,12 @@
+.club-bonus__pic_hh {
+  position: absolute;
+  top: -130px;
+  right: -190px;
+}
+
+@media screen and (max-width: 400px) {
+  .club-bonus__pic_hh {
+    max-width: 90px;
+  }
+}
+

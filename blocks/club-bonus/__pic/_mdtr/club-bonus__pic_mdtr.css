@@ -1,0 +1,11 @@
+.club-bonus__pic_mdtr {
+  position: absolute;
+  left: -260px;
+  top: 90px;
+}
+
+@media screen and (max-width: 400px) {
+  .club-bonus__pic_mdtr {
+    display: none;
+  }
+}

@@ -1,0 +1,28 @@
+.header__around {
+  margin: 0;
+  position: absolute;
+  right: 390px;
+  bottom: 165px;
+  max-width: 208px;
+  min-width: 85px;
+}
+
+@keyframes rotation {
+  from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.rotation {
+  animation: rotation 20s linear infinite;
+}
+
+@media screen and (max-width: 400px) {
+  .header__around {
+    padding: 0;
+  }
+}
+

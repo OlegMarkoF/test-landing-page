@@ -1,0 +1,17 @@
+.cards {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  max-width: 906px;
+  display: grid;
+  grid-template-columns: 362px 400px;
+  gap: 61px 112px;
+}
+
+@media screen and (max-width: 900px) {
+  .cards {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+}

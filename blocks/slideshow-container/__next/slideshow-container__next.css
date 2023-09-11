@@ -1,0 +1,17 @@
+.slideshow-container__next {
+  margin: 0 auto;
+  padding: 0;
+  cursor: pointer;
+  width: 48px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 25px;
+}
+
+.slideshow-container__next:hover {
+  opacity: 0.7;
+}
+
+

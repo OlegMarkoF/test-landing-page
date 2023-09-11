@@ -1,0 +1,12 @@
+.header__button_want {
+  position: inherit;
+  max-width: 280px;
+  margin: 0;
+  margin-top: 40px;
+}
+
+@media screen and (max-width: 400px) {
+  .header__button_want {
+    display: block;
+  }
+}

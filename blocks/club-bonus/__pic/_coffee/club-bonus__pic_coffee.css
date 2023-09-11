@@ -1,0 +1,12 @@
+.club-bonus__pic_coffee {
+  position: absolute;
+  max-width: min-content;
+  right: -270px;
+  bottom: -130px;
+}
+
+@media screen and (max-width: 400px) {
+  .club-bonus__pic_coffee {
+    display: none;
+  }
+}

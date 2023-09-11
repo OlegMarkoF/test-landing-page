@@ -1,0 +1,11 @@
+.club-bonus__img {
+  margin: -6px 0 0 -30px;
+  padding: 0;
+  max-width: 980px;
+}
+
+@media screen and (max-width: 400px) {
+  .club-bonus__img {
+    display: none;
+  }
+}

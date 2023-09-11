@@ -1,0 +1,26 @@
+.header__button {
+  margin: 0 0 125px;
+  width: 318px;
+  background: #ffde40;
+  border: none;
+  padding: 20px 48px 16px;
+  border-radius: 36px;
+  font-family: YS Text;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 31px;
+  letter-spacing: 0px;
+  cursor: pointer;
+  box-shadow: 0px 4px 98px 0px rgba(255, 222, 64, 0.59);
+  z-index: 2;
+}
+
+.header__button:hover {
+  opacity: 0.7;
+}
+
+@media screen and (max-width: 400px) {
+  .header__button {
+    display: none;
+  }
+}
