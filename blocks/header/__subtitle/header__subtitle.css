@@ -10,3 +10,10 @@
   max-width: 465px;
   z-index: 2;
 }
+
+@media screen and (max-width: 500px) {
+  .header__title {
+    font-size: 18px;
+    line-height: 23px;
+  }
+}

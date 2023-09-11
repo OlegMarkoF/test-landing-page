@@ -9,3 +9,11 @@
   letter-spacing: 0px;
   text-align: left;
 }
+
+@media screen and (max-width: 500px) {
+  .techniques__description {
+    font-size: 16px;
+    line-height: 19px;
+  }
+}
+

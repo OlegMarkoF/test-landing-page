@@ -1,0 +1,19 @@
+.techniques__column {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 50px;
+  right: 70px;
+  background: url(../../../images/Ellipse\ 1973.png);
+  background-position-x: 0;
+  background-position-y: 0;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 900px) {
+  .techniques__column {
+    position: inherit;
+    width: 100%;
+  }
+}

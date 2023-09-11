@@ -9,3 +9,10 @@
   font-family: YS Text;
   z-index: 2;
 }
+
+@media screen and (max-width: 500px) {
+  .header__title {
+    font-size: 36px;
+    line-height: 36px;
+  }
+}

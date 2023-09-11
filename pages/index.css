@@ -31,6 +31,7 @@
 @import url(../blocks/slideshow-container/__next/slideshow-container__next.css);
 @import url(../blocks/slideshow-container/__prev/_arrow/slideshow-container__prev_arrow.css);
 @import url(../blocks/slideshow-container/__next/_arrow/slideshow-container__next_arrow.css);
+@import url(../blocks/slideshow-container/__hh/slideshow-container__hh.css);
 
 @import url(../blocks/logo/logo.css);
 
@@ -60,6 +61,7 @@
 @import url(../blocks/techniques/__text/techniques__text.css);
 @import url(../blocks/techniques/__image/techniques__image.css);
 @import url(../blocks/techniques/__description/techniques__description.css);
+@import url(../blocks/techniques/__column/techniques__column.css);
 
 @import url(../blocks/table/table.css);
 @import url(../blocks/table/__cell/table__cell.css);

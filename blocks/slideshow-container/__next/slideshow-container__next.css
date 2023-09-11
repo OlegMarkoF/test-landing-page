@@ -4,10 +4,10 @@
   cursor: pointer;
   width: 48px;
   color: white;
-  font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
-  border-radius: 25px;
+  text-decoration: none;
+  border: none;
 }
 
 .slideshow-container__next:hover {

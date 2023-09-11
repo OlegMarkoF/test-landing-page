@@ -1,7 +1,19 @@
 .techniques__image {
   margin: 0;
   padding: 0;
-  padding-right: -10px;
   width: 100%;
   position: relative;
+}
+
+
+@media screen and (max-width: 900px) {
+  .techniques__image {
+    position: inherit;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .none {
+    display: none;
+  }
 }
