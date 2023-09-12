@@ -15,27 +15,25 @@
       <header class="header">
         <div class="header__box">
           <div class="header__content">
-            <img class="logo" src="./images/logo.svg" alt="логотип_Яндекс" />
-            <h1 class="header__title">Вступайте в&nbsp;клуб Самокатов</h1>
-            <p class="header__subtitle">
-              Купите абонемент, чтобы стать частью&nbsp;клуба в новом
-              сезоне–2024. 8&nbsp;месяцев за<img
-                src="./images/499.svg"
-                style="position: absolute; left: 150px; z-index: 1"
-              /><img
-                src="./images/3190.svg"
-                style="position: absolute; left: 175px; z-index: -1"
-              />
-            </p>
-            <button class="header__button">Стать частью клуба</button>
-            <div class="header__square-pic" >
-              <img
-                class="header__main-illustration"
-                src="./images/smkt.png"
-                alt="самокат"
-              />
-              <div class="header__around rotation">
-                <img src="./images/around.png" style="width: 100%" />
+            <div class="header__text">
+              <img class="logo" src="./images/logo.svg" alt="логотип_Яндекс" />
+              <h1 class="header__title">Вступайте в&nbsp;клуб Самокатов</h1>
+              <p class="header__subtitle">
+                Купите абонемент, чтобы&nbsp;стать
+                частью&nbsp;клуба&nbsp;в&nbsp;новом&nbsp;сезоне–2024.
+                8&nbsp;месяцев за<img
+                  class="header__price_now"
+                  src="./images/499.svg"
+                /><img class="header__price_before" src="./images/3190.svg" />
+              </p>
+              <button class="header__button none">Стать частью клуба</button>
+            </div>
+            <div class="header__images">
+              <div class="header__square-pic">
+                <img class="header__main-illustration" src="./images/smkt.png" alt="самокат" />
+                <div class="header__around rotation">
+                  <img src="./images/around.png" style="width: 100%" />
+                </div>
               </div>
             </div>
           </div>
@@ -80,8 +78,8 @@
           </h2>
           <p class="club-bonus__subtitle">
             С абонементом — у вас доступ к&nbsp;специальным мероприятиям,
-            скидки&nbsp;и классный мерч. В 2023 году мы танцевали на Даче Плюс
-            с&nbsp;Антохой&nbsp;MC, катались на самокатах
+            скидки&nbsp;и классный мерч. В 2023 году мы&nbsp;танцевали на Даче
+            Плюс с&nbsp;Антохой&nbsp;MC, катались на самокатах
             с&nbsp;Сергеем&nbsp;Мезенцевым и слушали хор Attaque de Panique
           </p>
           <div class="club-bonus__pic">
@@ -90,34 +88,33 @@
             <img class="club-bonus__pic_mdtr" src="./images/mdtr.svg" />
             <img class="club-bonus__pic_coffee" src="./images/coffe.svg" />
           </div>
-          <!-- Slideshow container -->
           <div class="slideshow-container">
-            <img class="slideshow-container__hh" src="./images/hh__small.png"/>
+            <div class="slideshow-container__hh">
+              <img
+                src="./images/hh__small.png"
+                style="position: absolute; right: -15px; top: -82px; z-index: 1"
+              />
+            </div>
             <div
               class="slideshow-container__mySlides slideshow-container__fade"
             >
               <img src="./images/1.png" style="width: 100%" />
             </div>
-
             <div
               class="slideshow-container__mySlides slideshow-container__fade"
             >
               <img src="./images/2.png" style="width: 100%" />
             </div>
-
             <div
               class="slideshow-container__mySlides slideshow-container__fade"
             >
               <img src="./images/3.png" style="width: 100%" />
             </div>
-
             <div
               class="slideshow-container__mySlides slideshow-container__fade"
             >
               <img src="./images/4.png" style="width: 100%" />
             </div>
-
-            <!-- Next and previous buttons -->
             <div class="slideshow-container__arrows">
               <a class="slideshow-container__prev" onclick="plusSlides(-1)"
                 ><img
@@ -134,24 +131,34 @@
         <section class="techniques">
           <div class="techniques__text">
             <h2 class="exclusive__title">
-              Купить абонемент и&nbsp;вступить в&nbsp;клуб смогут те,&nbsp;кто в
-              Плюсе
+              Купить абонемент и&nbsp;вступить в&nbsp;клуб&nbsp;смогут&nbsp;те,
+              кто в Плюсе
             </h2>
             <p class="techniques__description">
-              За каждую поездку на самокатах такие пользователи получают
-              кешбэк&nbsp;баллами. Баллы можно тратить&nbsp;на&nbsp;поездки на
-              самокатах и&nbsp;такси с Яндекс Go, покупки и&nbsp;заказы в других
-              сервисах Яндекса
+              За каждую поездку на самокатах такие пользователи&nbsp;получают
+              кешбэк баллами. Баллы можно&nbsp;тратить на&nbsp;поездки на
+              самокатах и&nbsp;такси с&nbsp;Яндекс Go, покупки и&nbsp;заказы в
+              других сервисах&nbsp;Яндекса
             </p>
           </div>
           <div class="techniques__image none">
             <img
-              style="max-width: 870px; position: absolute; top: -110px; left: -110px;"
+              style="
+                max-width: 870px;
+                position: absolute;
+                top: -110px;
+                left: -110px;
+              "
               src="./images/cloud.png"
               alt="самокат"
             />
             <img
-              style="max-width: 100%; position: absolute; top: 175px; left: 50px;"
+              style="
+                max-width: 100%;
+                position: absolute;
+                top: 175px;
+                left: 50px;
+              "
               src="./images/X.png"
               alt=""
             />
@@ -159,18 +166,20 @@
         </section>
         <section class="techniques">
           <div class="techniques__image">
-            <img class="techniques__column"
+            <img
+              class="techniques__column"
               src="./images/smkt_club.png"
               alt=""
             />
           </div>
           <div class="techniques__text">
-            <h2 class="exclusive__title">
-              80 % наших пользователей уже в клубе и&nbsp;экономят&nbsp;на поездках
+            <h2 class="exclusive__title techniques__title">
+              80 % наших пользователей уже в клубе и&nbsp;экономят
+              на&nbsp;поездках
             </h2>
             <p class="techniques__description">
               Присоединяйтесь — опция начнёт действовать в начале сезона–2024.
-              Об открытии сезона предупредим заранее, чтобы вы были готовы
+              Об&nbsp;открытии сезона предупредим заранее, чтобы вы были готовы
             </p>
             <button class="header__button header__button_want">
               Хочу абонемент

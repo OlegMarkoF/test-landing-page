@@ -1,16 +1,21 @@
 .header__square-pic {
-  position: absolute;
-  margin: 0 auto;
+  position: relative;
+  margin: 0;
   padding: 0;
-  top: 50px;
-  right: -200px;
-  max-width: 850px;
-
+  width: 100%;
+  height: 100%;
 }
-
 
 @media screen and (max-width: 900px) {
   .header__square-pic {
-    position: inherit;
+    display: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .header__square-pic {
+    display: block;
+    width: 355px;
+    margin: -5px 0 0 -29px;
   }
 }

@@ -13,6 +13,7 @@
 
 @media screen and (max-width: 500px) {
   .club-bonus__title {
+    margin-bottom: 28px;
     font-size: 32px;
     line-height: 32px;
   }

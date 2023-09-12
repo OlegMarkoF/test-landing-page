@@ -1,7 +1,7 @@
 .slideshow-container {
-  box-sizing: border-box;
-  position: relative;
-  margin: 0 auto;
+  position: static;
+  margin: 0 auto 110px;
+  padding: 0;
   min-width: 343px;
   display: none;
 }

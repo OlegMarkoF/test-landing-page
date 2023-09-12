@@ -7,6 +7,14 @@
 
 @media screen and (max-width: 400px) {
   .header__button_want {
+    margin-top: 28px;
     display: block;
+    max-width: 100%;
+    padding: 14px 0px 14px 0px;
+    border-radius: 36px;
+    gap: 4px;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0em;
   }
 }

@@ -1,0 +1,13 @@
+.header__price_now {
+  position: absolute;
+  left: 150px;
+  z-index: 1;
+}
+
+@media screen and (max-width: 500px) {
+  .header__price_now {
+    max-width: 55px;
+    height: 23px;
+    left: 112px;
+  }
+}

@@ -1,4 +1,14 @@
 .header__main-illustration {
-  width: 100%;
-  z-index: 0;
+  position: absolute;
+  background-size: cover;
+  background-repeat: no-repeat;
+  left: -140px;
+  top: -80px;
+}
+
+@media screen and (max-width: 500px) {
+  .header__main-illustration {
+    position: static;
+    width: 100%;
+  }
 }

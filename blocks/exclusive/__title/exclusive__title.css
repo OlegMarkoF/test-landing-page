@@ -12,6 +12,7 @@
 
 @media screen and (max-width: 500px) {
   .exclusive__title {
+    margin: 67px 16px 23px;
     font-size: 32px;
     line-height: 32px;
   }

@@ -1,0 +1,9 @@
+.techniques__title {
+  margin-top: 80px;
+}
+
+@media screen and (max-width: 500px) {
+  .techniques__title {
+    margin: 0;
+  }
+}

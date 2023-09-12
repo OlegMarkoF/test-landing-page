@@ -2,7 +2,7 @@
   position: absolute;
   max-width: min-content;
   right: -270px;
-  bottom: -130px;
+  bottom: -135px;
 }
 
 @media screen and (max-width: 900px) {

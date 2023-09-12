@@ -12,7 +12,9 @@
 }
 
 @media screen and (max-width: 500px) {
-  .header__title {
+  .header__subtitle {
+    margin: 25px 0 0px;
+    max-width: 355px;
     font-size: 18px;
     line-height: 23px;
   }
