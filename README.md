@@ -1,1 +1,2 @@
-# test-landing-page
+## Одностаничный сайт для Яндекс
+# Примененные технологии: HTML, CSS, JavaScript
